@@ -21,13 +21,20 @@ The motivation for this app is to provide a faster and easier way for users to v
 You can access the app: https://swcooper2014.github.io/NewsNow/
 
 Technologies Used
-HTML
-CSS, and Bootstrap
-JavaScript
-jQuery
-AJAX
-Materialize
 
+HTML
+
+CSS
+
+Bootstrap CSS
+
+JavaScript
+
+jQuery
+
+AJAX
+
+Materialize
 
 Contributors
 Anna Tillack, Sharron Cooper, Jess Marrano, Gregory Mckenzie, and Caglar Panus.
