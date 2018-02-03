@@ -1,0 +1,383 @@
+.channel-button {
+    z-index: 1;
+}
+/* ====================== Title section =================================*/
+#header {
+    text-align: center;
+    font-family: Impact;
+    background: none;
+    background: transparent;
+}
+/* ====================== Title section =================================*/
+.container {
+    width: 100%;
+}
+img {
+    z-index: 0;
+    position: absolute;
+    top: 310px;
+    left: 63px;
+    width: 556px;
+    height: 363px;
+}
+.jumbotron h1 {
+    font-size: 120px;
+    letter-spacing: .5;
+    line-height: 1;
+    color: #e52d27;
+}
+/* ====================== weather =================================*/
+#weather {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    width: 135px;
+
+}
+
+.weather-control{
+    color: white;
+}
+
+.weather-icon img{
+    width: 75px;
+    height: 75px;
+    top: 15px;
+    left: 210px;
+}
+.weather-icon p{
+    color: white;
+    margin-left: 220px;
+    position: absolute;
+    top: 75px;
+    font-size: 20px;
+}
+
+.input-group-btn{
+    width: 145px;
+}
+
+/* ====================== BACKGROUND =================================*/
+body {
+    background: linear-gradient(#454545, #181818);
+}
+/* ====================== table =================================*/
+table {
+    background: #eeeeee;
+    border: none;
+}
+iframe {
+    padding: 29px;
+    margin-left: -17px;
+    margin-top: 3px;
+    width: 478px;
+}
+/* ====================== Video and news Section =================================*/
+#video-and-news {
+    background: none;
+}
+#video {
+    width: 560px;
+    height: 315px;
+    margin-top: -33px;
+    margin-left: -16px;
+}
+#tvImage {
+    background-repeat: no-repeat;
+    width: 560px;
+    height: 440px;
+    margin-top: -125px;
+    margin-left: -16px;
+}
+#newslinks {
+    color: white;
+    font-size: 16px;
+    letter-spacing: .5;
+    padding: 10px;
+}
+/* ====================== Recent News section =================================*/
+/* 377bb5 blue */
+#recentNews {
+    background-color: #eeeeee;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 20px;
+}
+.panel-heading {
+    background: linear-gradient(-90deg, #84247b, #b50e67);
+    background-color: black;
+    text-align: center;
+}
+.panel-body {
+    background-color: white;
+    opacity: 0.5;
+}
+col-md-6 {
+    background-color: #454545;
+    width: 600px;
+    height: 400px;
+    padding: none;
+}
+h2 {
+    color: #e52d27;
+    ;
+    text-align: center;
+    font-style: bold;
+    font-size: 42px;
+}
+h3 {
+    color: black;
+    ;
+    text-align: center;
+    font-style: bold;
+    background-color: #454545;
+}
+p {
+    font-family: helvetica;
+}
+.container {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.Font2 {
+    text-align: center;
+    color: #e52d27;
+}
+label {
+    color: #e52d27;
+}
+form {
+    margin-bottom: 60px;
+}
+#search-video {
+    cursor: text;
+}
+#add-button {
+    background: #e52d27;
+    border: none;
+    cursor: pointer;
+}
+#clear-results {
+    background: #e52d27;
+    color: white;
+    border: none;
+}
+#topFive h2 {
+    text-align: center;
+}
+/* ====================== Live News Buttons =================================*/
+#videoBtns {
+    margin-left: 10px;
+}
+#search-button {
+    background: #e52d27;
+    border: none;
+    color: white;
+}
+#search-news-button {
+    background: #e52d27;
+    border: none;
+    color: white;
+}
+.button {
+    width: 10%;
+    margin-right: 10px;
+}
+#search {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: none;
+    width: 80%;
+    color: white;
+}
+.form-control {
+    background-color: white;
+    color: white;
+}
+#cnnBnt:hover,
+#foxBnt:hover,
+#abcBnt:hover,
+#msnbcBnt:hover,
+#skyBnt:hover,
+#search-button:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+}
+/* =================================== TV Buttons =================================*/
+#CNN {
+    background: #e52d27;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 521px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+#FOX {
+    background: #e52d27;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 440px;
+    left: 521px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+#SKY {
+    background: #e52d27;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 480px;
+    left: 521px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+#ABC {
+    background: #e52d27;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 520px;
+    left: 521px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+#NBC {
+    background: #e52d27;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 560px;
+    left: 521px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+#Bloomberg {
+    background: #e52d27;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 521px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+}
+/* =================================== media queries =================================*/
+/*1236 px*/
+@media screen and (max-width: 1236px) {
+    #topFive {
+        margin-left: 23%;
+        margin-right: 23%;
+        margin-top: 30px;
+        width: 600px;
+        border: black, solid, 3px;
+    }
+    img {
+        z-index: 0;
+        position: absolute;
+        top: 310px;
+        left: 303px;
+        width: 556px;
+        height: 363px;
+        margin: auto;
+    }
+    #CNN {
+        background: #e52d27;
+        border: none;
+        color: white;
+        position: absolute;
+        top: 400px;
+        left: 751px;
+        text-align: center;
+        width: 80px;
+        height: 30px;
+        padding: 5px;
+    }
+    #FOX {
+        background: #e52d27;
+        border: none;
+        color: white;
+        position: absolute;
+        top: 440px;
+        left: 751px;
+        text-align: center;
+        width: 80px;
+        height: 30px;
+        padding: 5px;
+    }
+    #SKY {
+        background: #e52d27;
+        border: none;
+        color: white;
+        position: absolute;
+        top: 480px;
+        left: 751px;
+        text-align: center;
+        width: 80px;
+        height: 30px;
+        padding: 5px;
+    }
+    #ABC {
+        background: #e52d27;
+        border: none;
+        color: white;
+        position: absolute;
+        top: 520px;
+        left: 751px;
+        text-align: center;
+        width: 80px;
+        height: 30px;
+        padding: 5px;
+    }
+    #NBC {
+        background: #e52d27;
+        border: none;
+        color: white;
+        position: absolute;
+        top: 560px;
+        left: 751px;
+        text-align: center;
+        width: 80px;
+        height: 30px;
+        padding: 5px;
+    }
+    #Bloomberg {
+        background: #e52d27;
+        border: none;
+        color: white;
+        position: absolute;
+        top: 600px;
+        left: 751px;
+        text-align: center;
+        width: 80px;
+        height: 30px;
+        padding: 5px;
+    }
+}
+/*980 px*/
+@media screen and (max-width: 980px) {}
+/*768 px*/
+@media screen and (max-width: 768px) {}
+/*640 px*/
+@media screen and (max-width: 640px) {}
+
+

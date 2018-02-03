@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+    <title>NewsNow</title>
+    <!--Bootstrap Link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!--Css Link-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div id="weather">
+        <input type="number" class="weather-control" placeholder="Zip Code">
+        <span class="input-group-btn"><button class="btn btn-default" type="submit" id="weather-button">Weather</button></span>
+    </div>
+    <div class="weather-icon">
+            
+    </div>
+    <div class="jumbotron" id="header">
+        <h1 class="awesome">News Now</h1>
+        <p class="Font2">LIVE NEWS AT YOUR FINGERTIPS</p>
+    </div>
+    <div class="container-fluid">
+        <div>
+            <img src="assets/images/vector_tv3.png">
+            <!-- ******************* TV buttons ********************* -->
+            <div>
+                <a id="CNN" class="btn-default button channel-button" data-value="cnn live english" role="button">CNN</a>
+                <a id="FOX" class="btn-default button channel-button" data-value="FOX News Live" role="button">FOX</a>
+                <a id="SKY" class="btn-default button channel-button" data-value="SKY News Live" role="button">SKY</a>
+                <a id="ABC" class="btn-default button channel-button" data-value="ABC News Live" role="button">ABC</a>
+                <a id="NBC" class="btn-default button channel-button" data-value="NBC Live" role="button">NBC</a>
+                <a id="Bloomberg" class="btn-default button channel-button" data-value="Bloomberg Global News LIVE" role="button">Bloomberg</a>
+            </div>
+        </div>
+        <div class="jumbotron row" id="video-and-news">
+            <div class="col-md-6" alt="Youtube video will go here" id="video">
+                <!--<img src="images/vector_tv1.png" id="tvImage"> -->
+            </div>
+            <div class="col-md-6" id="topFive">
+                <marquee direction="up" scrolldelay="200">
+                    <ul id="top5">
+                        <!-- Live news will be shown in here-->
+                    </ul>
+                </marquee>
+            </div>
+        </div>
+        <div class="input-group" id="search">
+            <input type="text" class="form-control" placeholder="Search for Live Link" aria-describedby="basic-addon2">
+            <span class="input-group-btn"><button class="btn btn-default" type="button" id="search-button">Search</button></span>
+        </div>
+    </div>
+    <!-- ******************* end of main div ********************* -->
+    <!-- ******************* table for news info ********************* -->
+    <div class="container" id="recentNews">
+        <div>
+            <h2>Related News</h2>
+        </div>
+        <table class="table">
+            <!--  table  -->
+            <thead>
+                <tr>
+                    <th scope="col">News Source:</th>
+                    <th scope="col">Articles:</th>
+                    <th scope="col">Date:</th>
+                    <th scope="col">Link:</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <!-- table  -->
+        <!-- ******************* form ********************* -->
+        <form id="main-form">
+            <div class="form-group">
+                <label for="pwd">Search:</label>
+                <input type="text" class="article-form-control" id="search-article" placeholder="Search Topic" name="search-video">
+            </div>
+            <!-- ******************* buttons ********************* -->
+            <button type="submit" class="btn btn-success" id="search-news-button">Search News</button>
+            <button id="clear-results" type="remove" class="btn btn-default">Clear Results</button>
+        </form>
+        <!-- ******************* end of form ********************* -->
+    </div>
+    <!-- ******************* end of table for song info ********************* -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>
