@@ -202,7 +202,7 @@ $(".channel-button").on("click", function(e){
 $("#weather-button").click(function(){
 
   event.preventDefault();
-  $(".weather-control").empty();
+  $(".weather-icon").empty();
 
   var zipCode = $(".weather-control").val().trim();
   
