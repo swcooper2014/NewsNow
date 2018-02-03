@@ -36,5 +36,5 @@ AJAX
 
 Materialize
 
-Contributors
+Contributors:
 Anna Tillack, Sharron Cooper, Jess Marrano, Gregory Mckenzie, and Caglar Panus.
