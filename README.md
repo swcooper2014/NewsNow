@@ -24,5 +24,7 @@ JavaScript
 jQuery
 AJAX
 Materialize
+
+
 Contributors
 Anna Tillack, Sharron Cooper, Jess Marrano, Gregory Mckenzie, and Caglar Panus.
