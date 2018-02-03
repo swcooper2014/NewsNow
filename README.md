@@ -1,7 +1,9 @@
 # NewsNow
 
 NewsNow
-A Web application that you can use to see the most current news from all over the world via Google News, has live channel via YouTube, a search option for articles or news searches about anything, and provide a current weather information by entering zip code. #Overview of the Application
+A Web application that you can use to see the most current news from all over the world via Google News, has live channel via YouTube, a search option for articles or news searches about anything, and provide a current weather information by entering zip code. 
+
+Overview of Application
 
 Brings the news to the user.
 
@@ -11,7 +13,7 @@ The user can search for a live news feed.
 
 The user will be able to search for news on any topic of their choosing
 
-The top five news articles will appear on the webpage
+The top ten news articles will appear on the webpage in a scrolling feed
 
 The motivation for this app is to provide a faster and easier way for users to view only the news they want to learn about.
 
