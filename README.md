@@ -34,6 +34,8 @@ jQuery
 
 AJAX
 
+APIs
+
 Materialize
 
 Contributors:
